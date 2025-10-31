@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "env": {
+    "CLIENT_URL": "https://medi-cart-xm9x.vercel.app"
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "api/index.js" }
+  ]
+}
